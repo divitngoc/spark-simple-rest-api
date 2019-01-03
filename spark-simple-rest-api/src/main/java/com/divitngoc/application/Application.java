@@ -24,8 +24,7 @@ public class Application {
 
 		get(CARS_PATH + "/:id", (req, res) -> {
 			res.type("application/json");
-			return carController.getCar(req.params(":id"));
-
+			return carController.getCar(req.params(":id"), new Car());
 		}, gson::toJson);
 
 		post(CARS_PATH, (req, res) -> {
@@ -36,8 +35,7 @@ public class Application {
 
 		delete(CARS_PATH + "/:id", (req, res) -> {
 			res.type("application/json");
-			return carController.deleteCar(req.params(":id"));
-
+			return carController.deleteCar(req.params(":id"), new Car());
 		}, gson::toJson);
 	}
 

@@ -27,4 +27,8 @@ public class Car {
 		this.model = model;
 		this.color = color;
 	}
+
+	public void set_id(String id) throws IllegalArgumentException {
+		this._id = new ObjectId(id);
+	}
 }

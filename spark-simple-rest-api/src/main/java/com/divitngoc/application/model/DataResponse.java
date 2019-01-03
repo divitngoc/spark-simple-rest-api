@@ -12,6 +12,9 @@ public class DataResponse {
 	private String message;
 	private List<Car> data;
 
+	public DataResponse() {
+	}
+
 	public DataResponse(ResponseStatus status, String message, List<Car> data) {
 		this.status = status;
 		this.message = message;
