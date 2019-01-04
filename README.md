@@ -27,7 +27,10 @@ mvn install
 ```
 And then run the Application class.
 
-
+## Build Docker image
+```
+docker build -f Dockerfile -t docker-spark-api .
+```
 ## Screenshots
 I've used Chrome Advanced REST Client to test the API.
 
