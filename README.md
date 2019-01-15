@@ -18,6 +18,8 @@ Maven 3.3+
 
 lombok
 
+Docker CE
+
 ## To start
 To start this application, clone this repo (https://github.com/DivitGitHub/spark-simple-rest-api.git).
 
@@ -45,4 +47,4 @@ I've used Chrome Advanced REST Client to test the API.
 ![screenshot_3](https://user-images.githubusercontent.com/26686429/50621655-15ff1a00-0eff-11e9-8249-524b1dbd2708.png)
 
 ## About
-I started this project for fun which showcase a bit of Spark framework, Java 11, MongoDB, JUnit, Mockito and lombok.
+I started this project for fun which showcase a bit of Spark framework, MongoDB, JUnit, Mockito, lombok and Docker.
